@@ -1,5 +1,5 @@
-﻿
-<?php
+﻿<?php
+
  if(isset($_POST['enviar']))
  {
 	$us=$_POST["user"];
@@ -24,23 +24,23 @@
 	{
 	session_start();
 	$_SESSION = array();
-	$_SESSION["User"]=$_POST["user"];
-	$_SESSION["nome"]=$registos_user["Nome"];
+	$_SESSION["user"]=$_POST["user"];
+	//$_SESSION["nome"]=$registos_user["Nome"];
 	
 	$query="Select Tipo from utilizador where User='".$us."' and Password='".$ps."'";
 	$faz_query=mysqli_query($ligaBD,$query);
 	while($row = mysqli_fetch_array($faz_query)) {
 	if($row['Tipo'] == "Cliente")
 	{
-		header('Location: _CLIENTE\index.html');
+		header('Location: _CLIENTE\index.php');
 	}
 	else
 	{
 		if($row['Tipo'] == "Vendedor")
 		{
-			header('Location: _VENDEDOR\index.html');
+			header('Location: _VENDEDOR\index.php');
 		}
-		else{
+		//else{
 		
 		} 
 	}
@@ -55,6 +55,4 @@
 	echo "<br>";
 	echo '<a href="login.html">Voltar</a>';
 	}
-	}
  }
- ?>

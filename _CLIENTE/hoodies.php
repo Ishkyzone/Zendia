@@ -157,8 +157,8 @@
 										}
 										mysqli_close($ligaBD);
 										*/?>
-										</table>
-										</section>
+										</div>
+										</center>
 									</article>
 							</div>
 						</div>

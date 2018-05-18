@@ -1,6 +1,5 @@
 ﻿
 <?php
-//** insere os dados na tabela qundo o botão 
  if(isset($_POST['enviar']))
 {
 		$tipo=$_POST["tipo"];
