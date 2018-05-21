@@ -14,8 +14,8 @@
 	echo "<a href='registo.html'>Registe-se aqui";
 	exit;
 	}
-
-	$existe="Select * from utilizador where User='".$us."' and Password='".$ps."'";
+	$hash=password_hash($ps, PASSWORD_BCRYPT, 12);
+	$existe="Select * from utilizador where User='".$us."' and Password='".$hash."'";
 	$faz_existe=mysqli_query($ligaBD,$existe);
 	$registos_user=mysqli_fetch_array($faz_existe);
 	$num_registos=mysqli_num_rows($faz_existe);
@@ -26,8 +26,8 @@
 	$_SESSION = array();
 	$_SESSION["user"]=$_POST["user"];
 	//$_SESSION["nome"]=$registos_user["Nome"];
-	
-	$query="Select Tipo from utilizador where User='".$us."' and Password='".$ps."'";
+
+	$query="Select Tipo from utilizador where User='".$us."' and Password='".$hash."'";
 	$faz_query=mysqli_query($ligaBD,$query);
 	while($row = mysqli_fetch_array($faz_query)) {
 	if($row['Tipo'] == "Cliente")
@@ -40,14 +40,12 @@
 		{
 			header('Location: _VENDEDOR\index.php');
 		}
-		//else{
-		
 		} 
 	}
 	
-	//header('Location: index.html');
+	//header('Location: index.php');
 	//echo "Bem vindo(a) sua linda $_SESSION[nome]";
-//	echo '<a href=index.html> Home</a>';
+//	echo '<a href=index.php> Home</a>';
 	}
 
 	{ 

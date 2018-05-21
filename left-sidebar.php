@@ -29,12 +29,12 @@ $row_catalogos = mysqli_fetch_assoc($resultado_catalogo);
 					<div id="header">
 
 						<!-- Logo -->
-							<h1><a href="index.html">Dopetrope</a></h1>
+							<h1><a href="index.php">Dopetrope</a></h1>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="index.html">Home</a></li>
+									<li><a href="index.php">Home</a></li>
 									<li>
 										<a href="#">Dropdown</a>
 										<ul>

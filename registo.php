@@ -28,7 +28,8 @@
 
 		if ($jaexiste==0)
 		{
-			$sql="INSERT INTO utilizador (Tipo, Nome, Datanasc, Email, User, Password) VALUES('$tipo','$nome','$datanasc','$mail','$us','$ps')";
+            $hashpass = password_hash($ps, PASSWORD_BCRYPT, 12);
+			$sql="INSERT INTO utilizador (Tipo, Nome, Datanasc, Email, User, Password) VALUES('$tipo','$nome','$datanasc','$mail','$us','$hashpass')";
 			if (!mysqli_query($ligaBD,$sql))
 			{
 			die('Erro: '. mysqli_error($ligaBD));

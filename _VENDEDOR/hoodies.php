@@ -21,12 +21,12 @@
 					<div id="header">
 
 						<!-- Logo -->
-							<h1><a href="index.html">Zendia</a></h1>
+							<h1><a href="index.php">Zendia</a></h1>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
+									<li class="current"><a href="index.php">Home</a></li>
 									<li>
 										<a href="#">Categorias</a>
 										<ul>
