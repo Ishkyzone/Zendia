@@ -35,7 +35,7 @@
 											<li><a href="#">Camisolas</a></li>
 										</ul>
 									</li>
-									<a href="catalogo.html">Catálogo</a>
+                                    <li><a href="catalogo.html">Catálogo</a></li>
 
 									<!--<li><a href="logout.php">Logout</a></li> -->
 									<li><a href="login.html">Login</a></li>

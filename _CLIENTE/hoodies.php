@@ -35,8 +35,7 @@
 											
 										</ul>
 									</li>
-									<a href="catalogo.php">Catálogo</a>
-									</li>
+                                    <li><a href="catalogo.php">Catálogo</a></li>
 									<!--<li><a href="logout.php">Logout</a></li> -->
 									<li><form action="logout.php" method="get">
 									<input type="submit" value="Logout">

@@ -10,7 +10,7 @@
 		$ps=$_POST["password"];
 		$ps1=$_POST["password1"];
 
-		if ($_POST["password"]<>$_POST["password1"])
+		if ($ps<>$ps1)
 		{
 		?>
 		<center>
@@ -28,7 +28,10 @@
 
 		if ($jaexiste==0)
 		{
-            $hashpass = password_hash($ps, PASSWORD_BCRYPT, 12);
+            $options = [
+                'cost' => 12
+            ];
+            $hashpass = password_hash($ps, PASSWORD_BCRYPT, $options);
 			$sql="INSERT INTO utilizador (Tipo, Nome, Datanasc, Email, User, Password) VALUES('$tipo','$nome','$datanasc','$mail','$us','$hashpass')";
 			if (!mysqli_query($ligaBD,$sql))
 			{

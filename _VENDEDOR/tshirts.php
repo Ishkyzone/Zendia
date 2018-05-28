@@ -35,9 +35,8 @@
 											
 										</ul>
 									</li>
-									<a href="catalogo.php">Catálogo</a>
-									</li>
-									<!--<li><a href="logout.php">Logout</a></li> -->
+                                    <li><a href="catalogo.php">Catálogo</a></li>
+                                    <li><a href="submeter.html">Submeter design</a></li>
 									<li><form action="logout.php" method="get">
 									<input type="submit" value="Logout">
 									</form></li>
@@ -157,8 +156,8 @@
 										}
 										mysqli_close($ligaBD);
 										*/?>
-										</table>
-										</section>
+										</div>
+										</center>
 									</article>
 							</div>
 						</div>

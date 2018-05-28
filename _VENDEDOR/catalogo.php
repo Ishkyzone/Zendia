@@ -35,8 +35,7 @@
 											<li><a href="#">Camisolas</a></li>
 										</ul>
 									</li>
-									<a href="catalogo.html">Catálogo</a>
-									</li>
+                                    <li><a href="catalogo.html">Catálogo</a></li>
 									<!--<li><a href="logout.php">Logout</a></li> -->
 									<li><form action="logout.php" method="get">
 									<input type="submit" value="Logout">
@@ -157,8 +156,8 @@
 										}
 										mysqli_close($ligaBD);
 										*/?>
-										</table>
-										</section>
+										</div>
+										</center>
 									</article>
 							</div>
 						</div>
