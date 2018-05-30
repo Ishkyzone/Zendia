@@ -4,6 +4,25 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<?php
+session_start();
+if (isset($_SESSION['user'])) {
+    include('ligaBD.php');
+    $type="Select Tipo from utilizador where User ='".$_SESSION['user']."'";
+    $get_type=mysqli_query($ligaBD, $type);
+    if($get_type=="Cliente")
+    {
+        header('Location: _CLIENTE\tshirts.php');
+    }else{
+        if($get_type=="Vendedor")
+        {
+            header('Location: _VENDEDOR\tshirts.php');
+        }
+    }
+}
+?>
+
 <html>
 	<head>
 		<title>Zendia</title>
@@ -114,7 +133,7 @@
 													echo '<td>';
 													echo $registos['Nome'];
 													echo "<br>";
-													echo "<img src=../_VENDEDOR/designs/".$registos['Design']." width=150 height=200/>";
+													echo "<img src=_VENDEDOR/designs/".$registos['Design']." width=150 height=200/>";
 													$i=$i+1;
 													}
 													}
@@ -155,8 +174,8 @@
 										}
 										mysqli_close($ligaBD);
 										*/?>
-										</table>
-										</section>
+										</div>
+										</center>
 									</article>
 							</div>
 						</div>

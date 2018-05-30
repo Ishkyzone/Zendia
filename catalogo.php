@@ -4,6 +4,25 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<?php
+session_start();
+if (isset($_SESSION['user'])) {
+    include('ligaBD.php');
+    $type="Select Tipo from utilizador where User ='".$_SESSION['user']."'";
+    $get_type=mysqli_query($ligaBD, $type);
+    if($get_type=="Cliente")
+    {
+        header('Location: _CLIENTE\catalogo.php');
+    }else{
+        if($get_type=="Vendedor")
+        {
+            header('Location: _VENDEDOR\catalogo.php');
+        }
+    }
+}
+?>
+
 <html>
 	<head>
 		<title>Zendia</title>

@@ -116,7 +116,7 @@
 													echo '<td>';
 													echo $registos['Nome'];
 													echo "<br>";
-													echo "<img src=../_VENDEDOR/designs/".$registos['Design']." width=150 height=200/>";
+													echo "<img src=designs/".$registos['Design']." width=150 height=200/>";
 													$i=$i+1;
 													}
 													}
