@@ -70,7 +70,7 @@ if (isset($_SESSION['user'])) {
 
 								<!-- Sidebar -->
 									<section class="box">
-										<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+
 										<header>
 											<h3>Sed etiam lorem nulla</h3>
 										</header>
@@ -79,31 +79,15 @@ if (isset($_SESSION['user'])) {
 											<a href="#" class="button alt">Magna sed taciti</a>
 										</footer>
 									</section>
-									<section class="box">
-										<header>
-											<h3>Feugiat consequat</h3>
-										</header>
-										<p>Veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore.</p>
-										<ul class="divided">
-											<li><a href="#">Sed et blandit consequat sed</a></li>
-											<li><a href="#">Hendrerit tortor vitae sapien dolore</a></li>
-											<li><a href="#">Sapien id suscipit magna sed felis</a></li>
-											<li><a href="#">Aptent taciti sociosqu ad litora</a></li>
-										</ul>
-										<footer>
-											<a href="#" class="button alt">Ipsum consequat</a>
-										</footer>
-									</section>
+
 
 							</div>
 							<div class="8u 12u(mobile) important(mobile)">
 
 								<!-- Content -->
 									<article class="box post">
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 										
 										<!--conteudos-->
-										
 										<?php
 										include('ligaBD.php');
 										$procura="Select * from campanhas";
@@ -112,12 +96,12 @@ if (isset($_SESSION['user'])) {
 										?>
 										<body>
 										<center>
-										 <div class="w3-card-4"  style="width:400px">
+										 <div class="w3-card-4"  style="width:600px">
 											 <header class="w3-container w3-blue">
-											  <h1>Lista de campanhas</h1>
+											  <h1>Campanhas</h1>
 											</header>
 										<link rel="stylesheet" href="w3.css">
-										<table class="w3-table-all "  style="width:400px">
+										<table class="w3-table-all "  style="width:600px">
 
 										<?php
 										for ($i=0; $i<$num_registos;)
@@ -129,10 +113,14 @@ if (isset($_SESSION['user'])) {
 										    if($i<$num_registos)
 										    {
 										        $registos=mysqli_fetch_array($faz_procura);
+										        $id = $registos['Campanha_ID'];
 										        echo '<td>';
 										        echo $registos['Nome'];
 										        echo "<br>";
-										        echo "<img src=_VENDEDOR/designs/".$registos['Design']." width=150 height=200/>";
+                                                $_COOKIE['idcampanha'] = $id[0];
+										        echo "<a href=produto.php><img src=_VENDEDOR/designs/".$registos['Design']." width=150 height=200/></a>";
+                                                echo"&nbsp;&nbsp;&nbsp;";
+
 										        $i=$i+1;
 										    }
 										}

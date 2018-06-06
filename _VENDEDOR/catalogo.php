@@ -98,8 +98,8 @@ if (isset($_SESSION['user'])) {
 
 								<!-- Content -->
 									<article class="box post">
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										
+										<!--<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										-->
 										<!--conteudos-->
 										
 										<?php
