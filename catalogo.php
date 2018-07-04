@@ -106,7 +106,7 @@ if (isset($_SESSION['user'])) {
 										<?php
 										for ($i=0; $i<$num_registos;)
 										{
-										echo '<tr>';
+										echo '<tr align="center">';
 										$j=0;
 										for ($j=0; $j<3; $j++)
 										{
@@ -114,53 +114,24 @@ if (isset($_SESSION['user'])) {
 										    {
 										        $registos=mysqli_fetch_array($faz_procura);
 										        $id = $registos['Campanha_ID'];
+
 										        echo '<td>';
 										        echo $registos['Nome'];
 										        echo "<br>";
-                                                $_COOKIE['idcampanha'] = $id[0];
-										        echo "<a href=produto.php><img src=_VENDEDOR/designs/".$registos['Design']." width=150 height=200/></a>";
+										        echo "<a href=campanha.php?id=" .$registos['Campanha_ID']."><img src=_VENDEDOR/designs/".$registos['Design']." width=150 height=200/></a>";
                                                 echo"&nbsp;&nbsp;&nbsp;";
+                                                //<a href=campanha.php?" .$registos['Nome'].">
+                                                //<input type=\"image\" src=\"_VENDEDOR/designs/".$registos['Design']."\" width=150 height=200 alt=\"Submit\" />
+                                                //<img src=_VENDEDOR/designs/".$registos['Design']." width=150 height=200/></a>
 
 										        $i=$i+1;
 										    }
-										}
-										}
-										mysqli_close($ligaBD);
-										?>
+                                        }
+                                        }
+                                        mysqli_close($ligaBD);
+                                        ?>
+
 										</table>
-										
-										<?php
-										/*include('ligaBD.php');
-
-										$lista="Select * from campanhas" ;
-
-										$faz_procura=mysqli_query($ligaBD,$lista);
-										$num_produtos=mysqli_num_rows($faz_procura);
-										?>
-										<body>
-										<center>
-										 <div  style="width:700px">
-											 <header >
-											  <h1>Lista de produtos</h1>
-											 </header>
-
-										<table   style="width:600px">
-										
-										<?php
-										for ($i=0; $i<$num_produtos; $i++)
-										{
-										$registos_produtos=mysqli_fetch_array($faz_procura);
-										$j=0;
-										for ($j=0; $j<2; $j++)
-										{
-										echo '<td>';
-										echo "<tr><img src=../_VENDEDOR/designs/".$registos_produtos['Design']." width=100 height=100/>";
-										echo '<tr>'.$registos_produtos['Nome'];
-										echo '<tr>'.$registos_produtos['Descricao'];
-										}
-										}
-										mysqli_close($ligaBD);
-										*/?>
 										</div>
 										</center>
 									</article>
@@ -227,7 +198,7 @@ if (isset($_SESSION['user'])) {
                                         <!-- Copyright -->
                                         <div id="copyright">
                                             <ul class="links">
-                                                <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                                <li>&copy;Zendia. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                                             </ul>
                                         </div>
 
