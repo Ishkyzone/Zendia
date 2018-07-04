@@ -88,6 +88,8 @@
                                     echo"&nbsp;&nbsp;&nbsp;";
                                     $i=$i+1;
                                 }
+
+                                //asjkfhasj
                             }
                         }
                         mysqli_close($ligaBD);
