@@ -48,11 +48,10 @@ if (isset($_SESSION['user'])) {
 										<ul>
 											<li><a href="#">T-Shirts</a></li>
 											<li><a href="#">Hoodies</a></li>
-											<li><a href="#">Camisolas</a></li>
 										</ul>
 									</li>
-                                    <li><a href="catalogo.html">Catálogo</a></li>
-									<!--<li><a href="logout.php">Logout</a></li> -->
+                                    <li><a href="catalogo.php">Catálogo</a></li>
+                                    <li><a href="submeter.php">Submeter design</a></li>
 									<li><form action="logout.php" method="get">
 									<input type="submit" value="Logout">
 									</form></li>
@@ -68,38 +67,25 @@ if (isset($_SESSION['user'])) {
 
 								<!-- Sidebar -->
 									<section class="box">
-										<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 										<header>
-											<h3>Sed etiam lorem nulla</h3>
+											<h3>Procura</h3>
 										</header>
-										<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-										<footer>
-											<a href="#" class="button alt">Magna sed taciti</a>
-										</footer>
+										<p>
+                                            <form action="procura.php" method="post">
+                                            <input type="text" placeholder="Nome da Campanha..." name="search">
+                                            <button name="enviar" type="submit">Submeter</button>
+                                            </form>
+                                        </p>
+
 									</section>
-									<section class="box">
-										<header>
-											<h3>Feugiat consequat</h3>
-										</header>
-										<p>Veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore.</p>
-										<ul class="divided">
-											<li><a href="#">Sed et blandit consequat sed</a></li>
-											<li><a href="#">Hendrerit tortor vitae sapien dolore</a></li>
-											<li><a href="#">Sapien id suscipit magna sed felis</a></li>
-											<li><a href="#">Aptent taciti sociosqu ad litora</a></li>
-										</ul>
-										<footer>
-											<a href="#" class="button alt">Ipsum consequat</a>
-										</footer>
-									</section>
+
 
 							</div>
 							<div class="8u 12u(mobile) important(mobile)">
 
 								<!-- Content -->
+
 									<article class="box post">
-										<!--<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										-->
 										<!--conteudos-->
 										
 										<?php
@@ -110,6 +96,7 @@ if (isset($_SESSION['user'])) {
 										?>
 										<body>
 										<center>
+
 										 <div class="w3-card-4"  style="width:400px">
 											 <header class="w3-container w3-blue">
 											  <h1>Lista de campanhas</h1>
@@ -117,61 +104,31 @@ if (isset($_SESSION['user'])) {
 										<link rel="stylesheet" href="w3.css">
 										<table class="w3-table-all "  style="width:400px">
 
-										<?php
-										for ($i=0; $i<$num_registos;)
-										{
-										echo '<tr>';
-										$j=0;
-										for ($j=0; $j<3; $j++)
-										
-													{
-													if($i<$num_registos)
-													{
-													$registos=mysqli_fetch_array($faz_procura);
-													echo '<td>';
-													echo $registos['Nome'];
-													echo "<br>";
-													echo "<img src=../_VENDEDOR/designs/".$registos['Design']." width=150 height=200/>";
-													$i=$i+1;
-													}
-													}
-										}
-										mysqli_close($ligaBD);
-										?>
+                                            <?php
+                                            for ($i=0; $i<$num_registos;)
+                                            {
+                                                echo '<tr align="center">';
+                                                $j=0;
+                                                for ($j=0; $j<3; $j++)
+                                                {
+                                                    if($i<$num_registos)
+                                                    {
+                                                        $registos=mysqli_fetch_array($faz_procura);
+                                                        $id = $registos['Campanha_ID'];
+
+                                                        echo '<td>';
+                                                        echo $registos['Nome'];
+                                                        echo "<br>";
+                                                        echo "<a href=campanha.php?id=" .$registos['Campanha_ID']."><img src=designs/".$registos['Design']." width=150 height=200/></a>";
+                                                        echo"&nbsp;&nbsp;&nbsp;";
+                                                        $i=$i+1;
+                                                    }
+                                                }
+                                            }
+                                            mysqli_close($ligaBD);
+                                            ?>
 										</table>
-										
-										<?php
-										/*include('ligaBD.php');
 
-										$lista="Select * from campanhas" ;
-
-										$faz_procura=mysqli_query($ligaBD,$lista);
-										$num_produtos=mysqli_num_rows($faz_procura);
-										?>
-										<body>
-										<center>
-										 <div  style="width:700px">
-											 <header >
-											  <h1>Lista de produtos</h1>
-											 </header>
-
-										<table   style="width:600px">
-										
-										<?php
-										for ($i=0; $i<$num_produtos; $i++)
-										{
-										$registos_produtos=mysqli_fetch_array($faz_procura);
-										$j=0;
-										for ($j=0; $j<2; $j++)
-										{
-										echo '<td>';
-										echo "<tr><img src=../_VENDEDOR/designs/".$registos_produtos['Design']." width=100 height=100/>";
-										echo '<tr>'.$registos_produtos['Nome'];
-										echo '<tr>'.$registos_produtos['Descricao'];
-										}
-										}
-										mysqli_close($ligaBD);
-										*/?>
 										</div>
 										</center>
 									</article>

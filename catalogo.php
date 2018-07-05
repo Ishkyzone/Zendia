@@ -51,10 +51,10 @@ if (isset($_SESSION['user'])) {
 										<ul>
 											<li><a href="#">T-Shirts</a></li>
 											<li><a href="#">Hoodies</a></li>
-											<li><a href="#">Camisolas</a></li>
+
 										</ul>
 									</li>
-                                    <li><a href="catalogo.html">Catálogo</a></li>
+                                    <li><a href="catalogo.php">Catálogo</a></li>
 
 									<!--<li><a href="logout.php">Logout</a></li> -->
 									<li><a href="login.html">Login</a></li>
@@ -68,17 +68,16 @@ if (isset($_SESSION['user'])) {
 						<div class="row">
 							<div class="4u 12u(mobile)">
 
-								<!-- Sidebar -->
-									<section class="box">
-
-										<header>
-											<h3>Sed etiam lorem nulla</h3>
-										</header>
-										<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-										<footer>
-											<a href="#" class="button alt">Magna sed taciti</a>
-										</footer>
-									</section>
+                                <!-- Sidebar -->
+                                <section class="box">
+                                    <header>
+                                        <h3>Procura</h3>
+                                    </header>
+                                    <p>(Barra para pesquisar)</p>
+                                    <footer>
+                                        <a href="#" class="button alt">.</a>
+                                    </footer>
+                                </section>
 
 
 							</div>

@@ -66,7 +66,7 @@ if (isset($_SESSION['user'])) {
 							<section id="banner">
 								<header>
 									<h2>ZENDIA</h2>
-                                    <p>Compra e venda de vestuário <i>in-demand</i></p>
+                                    <p>Compra e venda de vestuário <i>on-demand</i></p>
 								</header>
 							</section>
 

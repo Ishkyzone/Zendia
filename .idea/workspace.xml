@@ -2,253 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b73ae006-b24a-4264-a2f2-994c8777e647" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_CLIENTE/campanha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_CLIENTE/procura.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_VENDEDOR/procura.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procura.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css (1)/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css (1)/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css (1)/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css (1)/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css (1)/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css (1)/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css (2)/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css (2)/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css (2)/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css (2)/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css (2)/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css (2)/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css/font-awesome.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css/font-awesome.min(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css/ie8(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css/ie8(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css/main(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css/main(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/fonts (1)/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/fonts (1)/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/fonts (2)/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/fonts (2)/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/fonts/fontawesome-webfont(1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/fonts/fontawesome-webfont(1).svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (1)/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js (2)/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/PIE(1).htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/PIE(1).htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/backgroundsize.min(1).htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/backgroundsize.min(1).htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/html5shiv(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/html5shiv(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/respond.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/respond.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.dropotron.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.dropotron.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/main(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/main(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/skel-viewport.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/skel-viewport.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/skel.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/skel.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/util(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/util(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/ie8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel (1).scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel (1).scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel (2).scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel (2).scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel(1).scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel(1).scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/assets/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_CLIENTE/catalogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/catalogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid.min(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot.min(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap.min(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/hoodies.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/hoodies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_CLIENTE/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/left-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/left-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/left-sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/ligaBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/ligaBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/css/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/css/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/ie8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/index(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/index(1).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/left-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/ligacaoBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/ligacaoBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/loginn.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/loginn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/no-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/no-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/registo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/registo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/registodados.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/registodados.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/main/right-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/main/right-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/right-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/right-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/sessao.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/sessao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_CLIENTE/tshirts.php" beforeDir="false" afterPath="$PROJECT_DIR$/_CLIENTE/tshirts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/css/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/css/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/sass/ie8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/assets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_CLIENTE/right-sidebar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_VENDEDOR/catalogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/catalogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/hoodies.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/hoodies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_VENDEDOR/designs/Campanha4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_VENDEDOR/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/left-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/ligaBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/ligaBD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/right-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/right-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/sessao.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/sessao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/storpistaxio.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/storpistaxio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/submeter.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/submeter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_VENDEDOR/tshirts.php" beforeDir="false" afterPath="$PROJECT_DIR$/_VENDEDOR/tshirts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main (1).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main (1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main (2).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main (2).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (1)/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (1)/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js (2)/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js (2)/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/PIE(1).htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/PIE(1).htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min(1).htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min(1).htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/html5shiv(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/html5shiv(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/respond.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/respond.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.dropotron.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.dropotron.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.dropotron.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.dropotron.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel-viewport.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skel-viewport.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel.min(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skel.min(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/util(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/util(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/ie8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoodies.php" beforeDir="false" afterPath="$PROJECT_DIR$/hoodies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/left-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/left-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/left-sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ligaBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/ligaBD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registo.html" beforeDir="false" afterPath="$PROJECT_DIR$/registo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registo.php" beforeDir="false" afterPath="$PROJECT_DIR$/registo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/right-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/right-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sessao.php" beforeDir="false" afterPath="$PROJECT_DIR$/sessao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tshirts.php" beforeDir="false" afterPath="$PROJECT_DIR$/tshirts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -281,17 +50,44 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="142">
+              <caret line="100" column="42" lean-forward="true" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submeterdesign.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_VENDEDOR/submeterdesign.php">
+      <file leaf-file-name="catalogo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_VENDEDOR/catalogo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procura.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_VENDEDOR/procura.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procura.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_CLIENTE/procura.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tshirts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_VENDEDOR/tshirts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -309,11 +105,15 @@
     <findStrings>
       <find>index.html</find>
       <find>li</find>
-      <find>li</find>
       <find>current</find>
+      <find>&lt;p&gt;Compra e venda de vestuário &lt;i&gt;in-demand&lt;/i&gt;&lt;/p&gt;</find>
+      <find>\&lt;\!\-\- Footer \-\-\&gt;\n\	\	\	\	\&lt;div id\=\&quot;footer\-wrapper\&quot;\&gt;\n\	\	\	\	\	\&lt;section id\=\&quot;footer\&quot; class\=\&quot;container\&quot;\&gt;\n\	\	\	\	\	\	\n\	\	\	\	\	\	\	\n\	\	\	\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;4u 12u\(mobile\)\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;section\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;header\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;h2\&gt;Tempus consequat\&lt;\/h2\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;\/header\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;ul class\=\&quot;divided\&quot;\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;Lorem ipsum dolor sit amet sit veroeros\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;Sed et blandit consequat sed tlorem blandit\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\n\	\	\	\	\	\	\	\	\&lt;\/section\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;4u 12u\(mobile\)\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;section\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;header\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;h2\&gt;Ipsum et phasellus\&lt;\/h2\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;\/header\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;ul class\=\&quot;divided\&quot;\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;Lorem ipsum dolor sit amet sit veroeros\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;Sed et blandit consequat sed tlorem blandit\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\	\n\	\	\	\	\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\	\	\	\&lt;\/section\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;4u 12u\(mobile\)\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;section\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;header\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;h2\&gt;Vitae tempor lorem\&lt;\/h2\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;\/header\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;ul class\=\&quot;social\&quot;\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&lt;a class\=\&quot;icon fa\-facebook\&quot; href\=\&quot;\#\&quot;\&gt;\&lt;span class\=\&quot;label\&quot;\&gt;Facebook\&lt;\/span\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&lt;a class\=\&quot;icon fa\-twitter\&quot; href\=\&quot;\#\&quot;\&gt;\&lt;span class\=\&quot;label\&quot;\&gt;Twitter\&lt;\/span\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;ul class\=\&quot;contact\&quot;\&gt;\n\	\	\	\	\	\	\	\	\	\	\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\n\	\	\	\	\	\	\	\	\	\	\	\&lt;h3\&gt;Mail\&lt;\/h3\&gt;\n\	\	\	\	\	\	\	\	\	\	\	\&lt;p\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;someone\@untitled\.tld\&lt;\/a\&gt;\&lt;\/p\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\n\	\	\	\	\	\	\	\	\	\	\	\&lt;h3\&gt;Phone\&lt;\/h3\&gt;\n\	\	\	\	\	\	\	\	\	\	\	\&lt;p\&gt;\(800\) 000\-0000\&lt;\/p\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\	\	\	\&lt;\/section\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;12u\&quot;\&gt;\n\n\	\	\	\	\	\	\	\	\&lt;\!\-\- Copyright \-\-\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;div id\=\&quot;copyright\&quot;\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;ul class\=\&quot;links\&quot;\&gt;\n\	\	\	\	\	\	\	\	\	\	\	\&lt;li\&gt;\&amp;copy\; Zendia\. All rights reserved\.\&lt;\/li\&gt;\&lt;li\&gt;Design\: \&lt;a href\=\&quot;http\:\/\/html5up\.net\&quot;\&gt;HTML5 UP\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;\/section\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\&lt;\/div\&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>index.php</replace>
+      <replace>&lt;p&gt;Compra e venda de vestuário &lt;i&gt;on-demand&lt;/i&gt;&lt;/p&gt;</replace>
+      <replace />
+      <replace>&lt;!-- Footer --&gt; 				&lt;div id=&quot;footer-wrapper&quot;&gt; 					&lt;section id=&quot;footer&quot; class=&quot;container&quot;&gt; 								&lt;!-- Copyright --&gt; 									&lt;div id=&quot;copyright&quot;&gt; 										&lt;ul class=&quot;links&quot;&gt; 											&lt;li&gt;&amp;copy;Zendia. All rights reserved.&lt;/li&gt;&lt;li&gt;Design: &lt;a href=&quot;http://html5up.net&quot;&gt;HTML5 UP&lt;/a&gt;&lt;/li&gt; 										&lt;/ul&gt; 									&lt;/div&gt;  							&lt;/div&gt; 						&lt;/div&gt; 					&lt;/section&gt; 				&lt;/div&gt;  		&lt;/div&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -331,22 +131,29 @@
         <option value="$PROJECT_DIR$/_CLIENTE/logout.php" />
         <option value="$PROJECT_DIR$/registo.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/_VENDEDOR/index.php" />
         <option value="$PROJECT_DIR$/_VENDEDOR/submeter.html" />
         <option value="$PROJECT_DIR$/_CLIENTE/index.php" />
         <option value="$PROJECT_DIR$/_VENDEDOR/hoodies.php" />
         <option value="$PROJECT_DIR$/_CLIENTE/hoodies.php" />
-        <option value="$PROJECT_DIR$/_CLIENTE/catalogo.php" />
         <option value="$PROJECT_DIR$/_CLIENTE/tshirts.php" />
         <option value="$PROJECT_DIR$/_VENDEDOR/tshirts.php" />
         <option value="$PROJECT_DIR$/hoodies.php" />
         <option value="$PROJECT_DIR$/tshirts.php" />
-        <option value="$PROJECT_DIR$/_VENDEDOR/catalogo.php" />
         <option value="$PROJECT_DIR$/produto.js" />
-        <option value="$PROJECT_DIR$/catalogo.php" />
         <option value="$PROJECT_DIR$/produto.php" />
+        <option value="$PROJECT_DIR$/campanha.php" />
         <option value="$PROJECT_DIR$/_VENDEDOR/submeterdesign.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/_VENDEDOR/campanha.php" />
+        <option value="$PROJECT_DIR$/_CLIENTE/campanha.php" />
+        <option value="$PROJECT_DIR$/catalogo.php" />
+        <option value="$PROJECT_DIR$/_CLIENTE/catalogo.php" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/procura.php" />
+        <option value="$PROJECT_DIR$/_VENDEDOR/catalogo.php" />
+        <option value="$PROJECT_DIR$/_VENDEDOR/procura.php" />
+        <option value="$PROJECT_DIR$/_CLIENTE/procura.php" />
       </list>
     </option>
   </component>
@@ -399,6 +206,11 @@
             <path>
               <item name="Zendia" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zendia" type="462c0819:PsiDirectoryNode" />
+              <item name="_CLIENTE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zendia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zendia" type="462c0819:PsiDirectoryNode" />
               <item name="_VENDEDOR" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -417,6 +229,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ZELUI\Documents\GitHub\Zendia\_CLIENTE" />
+      <recent name="C:\Users\ZELUI\Documents\GitHub\Zendia\_VENDEDOR" />
       <recent name="C:\Users\Estagiario1\Documents\GitHub\Zendia\_VENDEDOR" />
       <recent name="C:\Users\Estagiario1\Documents\GitHub\Zendia\_CLIENTE" />
       <recent name="C:\Users\Estagiario1\Documents\GitHub\Zendia" />
@@ -463,7 +277,8 @@
       <workItem from="1528104529930" duration="5000" />
       <workItem from="1528119038275" duration="2386000" />
       <workItem from="1528278599868" duration="8995000" />
-      <workItem from="1530693359495" duration="1570000" />
+      <workItem from="1530693359495" duration="5257000" />
+      <workItem from="1530800943920" duration="6300000" />
     </task>
     <task id="LOCAL-00001" summary="sessões melhoradas(não acabado)">
       <created>1526660852690</created>
@@ -507,26 +322,34 @@
       <option name="project" value="LOCAL" />
       <updated>1530693469658</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="abc">
+      <created>1530695159547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530695159547</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89596000" />
+    <option name="totallyTimeSpent" value="99583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="8" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3287037" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12591508" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1398243" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -536,7 +359,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,46 +378,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ligaBD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ligaBD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -695,11 +481,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_CLIENTE/registo.html" />
-    <entry file="file://$PROJECT_DIR$/_CLIENTE/right-sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_CLIENTE/left-sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1632" />
@@ -719,13 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_CLIENTE/catalogo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -750,20 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_VENDEDOR/tshirts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoodies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registo.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -781,28 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_VENDEDOR/catalogo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="113" column="60" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/produto.js" />
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/produto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -810,24 +549,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalogo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="142">
+          <caret line="100" column="42" lean-forward="true" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_VENDEDOR/submeterdesign.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="346">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_VENDEDOR/campanha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campanha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="101" column="33" lean-forward="true" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoodies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="50" lean-forward="true" selection-end-line="210" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="109" column="49" lean-forward="true" selection-start-line="109" selection-start-column="49" selection-end-line="109" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="71" column="53" lean-forward="true" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_CLIENTE/catalogo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+          <folding>
+            <element signature="e#1966#1972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_VENDEDOR/catalogo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_CLIENTE/right-sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_CLIENTE/campanha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_VENDEDOR/tshirts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_CLIENTE/procura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_VENDEDOR/procura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
